@@ -3,7 +3,7 @@ Repository of data and code used for a hate speech prediction study
 
 This repository contains the following files:
 
-- anonymized training dataset with extracted tweet, user and content features (features obtainable from twitter API are not included)
+- anonymized training dataset (16133 instances) with extracted tweet, user and content features (features obtainable from twitter API are not included)
 - script for extracting n-gram features from the tweets
 - script for training hate speech and tweet popularity classifiers
 
