@@ -7,8 +7,7 @@ This repository contains the following files:
 - script for training hate speech and tweet popularity classifiers from extracted features (assumes availability of Twitter API features)
 - script for extracting n-gram features and training a classifier based just on n-gram features (assumes you have tweet text available; we do not provide this)
 
-To do:
-- 
+Feel free to contact us with any questions or concerns, we'll be happy to help. 
 
 
 # Citation:
