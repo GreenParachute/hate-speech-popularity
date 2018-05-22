@@ -4,8 +4,23 @@ Repository of data and code used for a hate speech prediction study
 This repository contains the following files:
 
 - anonymized training dataset (16130 instances) with extracted tweet, user and content features (features obtainable from twitter API are not included)
-- script for training hate speech and tweet popularity classifiers from extracted features (assumes availability of Twitter API features)
-- script for extracting n-gram features and training a classifier based just on n-gram features (assumes you have tweet text available; we do not provide this)
+- script for extracting n-gram features and training a hate speech and tweet popularity classifiers from extracted features and n-gram features 
+
+NOTE: 
+
+1) popularity prediction requires availability of features obtained through Twitter API
+
+2) n-gram extractor requires tweet text; we do not provide this
+
+3) script only works with python 2.7
+
+Example use of script:
+
+```
+$ python hate_speech_prediction.py --input features.csv --features nlp --model svm
+
+$ python hate_speech_prediction.py --input corpus.csv --features ngram --model reg
+```
 
 Feel free to contact us with any questions or concerns, we'll be happy to help. 
 
