@@ -14,7 +14,7 @@ To do:
 
 # Citation:
 
-If you use any of this data, please cite the following paper(s):
+If you use any of this data, please cite the following paper:
 
 ```
 @inproceedings{examining-2018,
